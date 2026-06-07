@@ -18,6 +18,7 @@ import OfferSection from "./src/component/champign";
 import PromoSection from "./src/component/gallery";
 import HomeProductSlider from "./src/component/homeelectronics";
 import { CarouselPlugin2 } from "./src/component/Herosection2";
+import EMIBanner from "./src/component/EMI";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
     <OfferSection></OfferSection>
     <ShopByBrand></ShopByBrand>
     <CustomerServiceBanner></CustomerServiceBanner>
+    <EMIBanner></EMIBanner>
     <AboutSection/>
     
     

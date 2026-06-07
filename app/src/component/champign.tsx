@@ -112,7 +112,7 @@ const OfferProducts: Product[] = [
 /* ================= SECTION ================= */
 export default function OfferSection() {
   return (
-    <section className="py-16 px-4 md:px-12 lg:px-24 bg-gray-50">
+    <section className="py-16 px-4 md:px-28 lg:px-28 bg-gray-50">
       {/* HEADER */}
       <div className="flex items-center justify-between mb-10">
         <div>
