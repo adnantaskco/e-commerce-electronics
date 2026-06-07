@@ -53,8 +53,8 @@ export default function AboutSection() {
 
           <h2 className="mt-4 text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
             Buy Original Electronic Products
-            <span className="text-primary block">
-              At Transcom Digital
+            <span className=" block">
+              At Rumaisa <span className="text-primary">Digital</span>
             </span>
           </h2>
 

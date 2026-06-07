@@ -12,7 +12,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function CarouselPlugin() {
+export function CarouselPlugin2() {
   const plugin = Autoplay({
     delay: 4000,
     stopOnInteraction: true,
@@ -42,32 +42,36 @@ export function CarouselPlugin() {
   ];
 
   return (
-<section className="w-full">
-  <Carousel
-    plugins={[plugin]}
-    className="w-full"
-    // onMouseEnter={plugin.stop}
-    // onMouseLeave={plugin.reset}
-  >
-    <CarouselContent>
-      {banners.map((item) => (
-        <CarouselItem key={item.id}>
-          <div className="relative w-full h-[250px] sm:h-[400px] md:h-[500px] lg:h-[650px] overflow-hidden">
-            <Image
-              src={item.image}
-              alt="Hero Banner"
-              fill
-              priority
-              className="object-cover"
-            />
-          </div>
-        </CarouselItem>
-      ))}
-    </CarouselContent>
+ <section className="w-full">
+      <Carousel
+        plugins={[plugin]}
+        className="w-full"
+        onMouseEnter={plugin.stop}
+        onMouseLeave={plugin.reset}
+      >
+        <CarouselContent>
+          {banners.map((item) => (
+            <CarouselItem key={item.id} className="flex justify-center">
+              
+              {/* NO fixed height wrapper */}
+              <div className="w-full">
+                <Image
+                  src={item.image}
+                  alt="Hero Banner"
+                  width={1920}
+                  height={600}
+                  className="w-full h-auto object-contain"
+                  priority
+                />
+              </div>
 
-    <CarouselPrevious className="left-4 z-10" />
-    <CarouselNext className="right-4 z-10" />
-  </Carousel>
-</section>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+
+        <CarouselPrevious className="left-4 z-10" />
+        <CarouselNext className="right-4 z-10" />
+      </Carousel>
+    </section>
   );
 }

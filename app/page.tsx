@@ -16,14 +16,15 @@ import RefrigeSlider from "./src/component/refrigerator";
 import CustomerServiceBanner from "./src/component/customerservicebanner";
 import OfferSection from "./src/component/champign";
 import PromoSection from "./src/component/gallery";
+import HomeProductSlider from "./src/component/homeelectronics";
+import { CarouselPlugin2 } from "./src/component/Herosection2";
 
 export default function Home() {
   return (
     <>
-    <Navbar></Navbar>
-    <Navbar2/>
-    <Navbar3></Navbar3>
+   
     <CarouselPlugin></CarouselPlugin>
+    {/* <CarouselPlugin2></CarouselPlugin2> */}
     <ServiceSection/>
 
     <PromoSection></PromoSection>
@@ -33,11 +34,12 @@ export default function Home() {
     <DiscountBanners></DiscountBanners>
     <ACSlider></ACSlider>
     <RefrigeSlider></RefrigeSlider>
+    <HomeProductSlider></HomeProductSlider>
     <OfferSection></OfferSection>
     <ShopByBrand></ShopByBrand>
     <CustomerServiceBanner></CustomerServiceBanner>
     <AboutSection/>
-    <Footer/>
+    
     
     </>
   );

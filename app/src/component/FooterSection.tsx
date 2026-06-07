@@ -23,7 +23,7 @@ export default function Footer() {
           <h1 className="text-4xl font-black tracking-tight">
             Rumaisa
           </h1>
-          <p className="text-zinc-400 font-medium">
+          <p className="text-primary font-medium">
             DIGITAL
           </p>
         </div>

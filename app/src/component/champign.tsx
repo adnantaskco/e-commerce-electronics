@@ -20,7 +20,7 @@ const OfferProducts: Product[] = [
     id: 51,
     name: "Samsung Digital Inverter Refrigerator",
     image:
-      "https://myonebd.com/wp-content/uploads/2022/11/357X198-04-01.jpg",
+      "https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fea05120c-2c2b-44eb-b06e-0e3cc27df580&w=1500&q=100",
     price: 52000,
     oldPrice: 58000,
     hasOffer: true,
@@ -29,7 +29,7 @@ const OfferProducts: Product[] = [
   {
     id: 52,
     name: "LG Smart Frost Free Refrigerator",
-    image: "https://images.unsplash.com/photo-1616627982291-3f6b6b7c1c11",
+    image: "https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fea051408-380b-4e0d-b5d5-153543b8de8d&w=1500&q=100",
     price: 54000,
     oldPrice: 61000,
     hasOffer: true,
@@ -38,7 +38,7 @@ const OfferProducts: Product[] = [
   {
     id: 53,
     name: "Walton Double Door Refrigerator",
-    image: "https://images.unsplash.com/photo-1620812097330-ff2f1a3b2a11",
+    image: "https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fea05120c-2c2b-44eb-b06e-0e3cc27df580&w=1500&q=100",
     price: 39000,
     oldPrice: 44000,
     hasOffer: true,
@@ -46,64 +46,64 @@ const OfferProducts: Product[] = [
   },
   {
     id: 54,
-    name: "Singer Direct Cool Fridge",
-    image: "https://images.unsplash.com/photo-1595433707802-0c0c3c9a8a21",
-    price: 32000,
-    oldPrice: 36000,
+    name: "Samsung Digital Inverter AC 1.5 Ton",
+    image: "https://myonebd.com/wp-content/uploads/2016/12/myone-non-inverter-768x768.jpg",
+    price: 78000,
+    oldPrice: 85000,
     hasOffer: true,
     discount: 8,
   },
   {
     id: 55,
-    name: "Hisense Energy Saving Refrigerator",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-    price: 47000,
-    oldPrice: 52000,
+     name: "Xiaomi Mi TV P1 4K Android TV 50”",
+    image: "https://myonebd.com/wp-content/uploads/2022/10/Rose-Gold-24-32.jpg",
+    price: 42000,
+    oldPrice: 47000,
     hasOffer: true,
     discount: 9,
   },
   {
     id: 56,
-    name: "Sharp Premium Cooling Fridge",
-    image: "https://images.unsplash.com/photo-1616627561950-9f4b5c0a7c12",
-    price: 50000,
-    oldPrice: 56000,
+   name: "Haier Smart Inverter AC 1.5 Ton",
+  image: "https://myonebd.com/wp-content/uploads/2025/06/myone-inverter-768x768.jpg",
+  price: 60000,
+  oldPrice: 67000,
     hasOffer: true,
     discount: 10,
   },
   {
     id: 57,
-    name: "Panasonic Smart Inverter Refrigerator",
-    image: "https://images.unsplash.com/photo-1588854337115-1c67d1c8b8d0",
-    price: 61000,
-    oldPrice: 68000,
+    name: "Sharp Electric Kettle 1.7L",
+    image: "https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fea041610-3118-44f3-a6e0-642ade6eb20f&w=1500&q=100",
+    price: 1800,
+    oldPrice: 2200,
     hasOffer: true,
     discount: 10,
   },
   {
     id: 58,
-    name: "Haier No Frost Double Door Fridge",
-    image: "https://images.unsplash.com/photo-1616627451230-8c1a9a2b3c55",
-    price: 45000,
-    oldPrice: 50000,
+  name: "LG Toaster Oven 28L",
+  image: "https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe8080c08-0725-4d02-bbd0-14ccdd303d15&w=1500&q=100",
+  price: 9800,
+  oldPrice: 11500,
     hasOffer: true,
     discount: 10,
   },
   {
     id: 59,
-    name: "Vision Compact Refrigerator",
-    image: "https://images.unsplash.com/photo-1585238341987-2a1b3c4d5e66",
-    price: 28000,
-    oldPrice: 32000,
+      name: "Miyako Blender & Grinder Set",
+  image: "https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe905050b-2025-4054-b0e5-b76d515819e9&w=1500&q=100",
+  price: 4200,
+  oldPrice: 5000,
     hasOffer: true,
     discount: 12,
   },
   {
     id: 60,
-    name: "Whirlpool IntelliFresh Refrigerator",
-    image: "https://images.unsplash.com/photo-1600585152915-dc2c9b1a2f33",
-    price: 53000,
-    oldPrice: 59000,
+  name: "Sony Bravia 4K UHD Google TV 55”",
+  image: "https://myonebd.com/wp-content/uploads/2022/10/Rose-Gold-24-32.jpg",
+  price: 78000,
+  oldPrice: 85000,
     hasOffer: true,
     discount: 10,
   },
@@ -140,7 +140,7 @@ export default function OfferSection() {
             <div className="relative h-60 bg-gray-100 overflow-hidden">
               <Image
                 src={product.image}
-               
+               alt={product.name} 
                 fill
                 className="object-contain p-5 group-hover:scale-110 transition duration-500"
               />
@@ -174,10 +174,9 @@ export default function OfferSection() {
               </div>
 
               {/* BUTTON */}
-              <button className="w-full mt-4 flex items-center justify-center gap-2  text-white py-2.5 rounded-lg hover:opacity-90 transition">
-                <ShoppingCart size={18} />
-                Add to Cart
-              </button>
+                <button className="w-full mt-3 py-2 text-sm border rounded-lg hover:bg-black hover:text-white transition">
+                  Add to Cart
+                </button>
             </div>
           </div>
         ))}

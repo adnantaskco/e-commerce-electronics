@@ -122,7 +122,7 @@ function Navbar3() {
             </a>
 
             <a
-              href="#"
+              href="/loginpage"
               className="flex items-center gap-1 font-bold hover:text-primary transition"
             >
               <User size={18} />
